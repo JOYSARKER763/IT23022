@@ -1,3 +1,4 @@
+//write a program that can print a  series of natural number,their square and their cube in a sequence
 public class Ch1Ex5{
 public static void main(String args[]){
 
