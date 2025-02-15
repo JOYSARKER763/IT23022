@@ -2,7 +2,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 public class BigIntegerFactorial {
-    // Method to calculate factorial using BigInteger
+    
     public static BigInteger factorial(int num) {
         BigInteger fact = BigInteger.ONE;
         for (int i = 2; i <= num; i++) {
