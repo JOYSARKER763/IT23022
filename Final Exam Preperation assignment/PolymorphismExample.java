@@ -1,11 +1,11 @@
-// Superclass
+
 class Animal {
     void makeSound() {
         System.out.println("Animal makes a sound");
     }
 }
 
-// Subclass 1
+
 class Dog extends Animal {
     @Override
     void makeSound() {
@@ -13,7 +13,7 @@ class Dog extends Animal {
     }
 }
 
-// Subclass 2
+
 class Cat extends Animal {
     @Override
     void makeSound() {
@@ -21,16 +21,16 @@ class Cat extends Animal {
     }
 }
 
-// Main class
+
 public class PolymorphismExample {
     public static void main(String[] args) {
-        Animal myAnimal;  // Superclass reference
+        Animal myAnimal; 
 
-        myAnimal = new Dog();  // Dog object assigned
-        myAnimal.makeSound();  // Output: Dog barks
+        myAnimal = new Dog();  
+        myAnimal.makeSound(); 
 
-        myAnimal = new Cat();  // Cat object assigned
-        myAnimal.makeSound();  // Output: Cat meows
+        myAnimal = new Cat();
+        myAnimal.makeSound();
     }
 }
 
